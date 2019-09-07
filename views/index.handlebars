@@ -1,10 +1,7 @@
-<h1>BURGERS!</h1>
-
-
 <div class="row">
   <div class="col">
     <h2>Burgers to Eat!</h2>
-    <ul>
+    <ul style="list-style: none;">
       {{#each burgers}}
       {{#unless devour}}
       {{> burger/burger-block devour=true}}
@@ -15,7 +12,7 @@
   <div class="col">
     <h2>Burgers that have been devoured!</h2>
 
-    <ul>
+    <ul style="list-style: none;">
       {{#each burgers}}
       {{#if devour}}
       {{> burger/burger-block devour=false}}
@@ -26,6 +23,7 @@
 </div>
 
 
+<div class="form">
   <h2>Add a Burger</h2>
   <form class="create-form">
 
@@ -42,3 +40,4 @@
 
     <button type="submit">Order Here</button>
   </form>
+</div>

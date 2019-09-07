@@ -4,7 +4,10 @@ body {
 }
 
 .image{
-  background-image: url(../images/burger.jpeg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 li {
   padding: 5px;
@@ -21,6 +24,11 @@ li {
   background: aqua;
 }
 
+.form{
+  text-align: center;
+}
+
 .form-group {
   margin-bottom: 5px;
+  
 }
