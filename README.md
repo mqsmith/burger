@@ -5,8 +5,8 @@
 I wanted a way to place an order and eat a burger.
 
 ## Technologies
-MySQL, NodeJS, Handlebars, Javascript/Jquery
-Dependencies include: sequelize, express, path, dotenv, nodemon, mysql2
+MySQL, NodeJS, Handlebars, Javascript/Jquery, express
+Dependencies include: dotenv, express, express-handlebars, mysql
 
 ## Instructions On How To Run The App
 Clone the repository
